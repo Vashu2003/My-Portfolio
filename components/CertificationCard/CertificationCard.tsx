@@ -1,7 +1,6 @@
 "use client";
 import { Certification } from "@/data/certifications";
 import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function CertificationCard({ cert }: { cert: Certification }) {

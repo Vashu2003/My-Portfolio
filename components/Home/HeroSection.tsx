@@ -53,7 +53,7 @@ export default function HeroSection() {
           className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6"
           variants={itemVariants}
         >
-          Hi, I'm{" "}
+          Hi, I&apos;m{" "}
           <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
             Vashu Singh
           </span>

@@ -40,7 +40,7 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`px-3 py-2 text-sm font-medium ${pathname === item.href ? "text-white" : "text-gray-300 hover:text-white"}`}
+                className={`px-3 py-1 text-sm font-medium ${pathname === item.href ? "text-white" : "text-gray-300 hover:text-white"}`}
               >
                 {item.name}
               </Link>
@@ -103,7 +103,7 @@ export default function Navbar() {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className={`block px-3 py-2 text-base font-medium ${pathname === item.href ? "text-white bg-gray-900/50" : "text-gray-300 hover:text-white hover:bg-gray-700/50"}`}
+                    className={`block px-3 py-1 text-base font-medium ${pathname === item.href ? "text-white bg-gray-900/50" : "text-gray-300 hover:text-white hover:bg-gray-700/50"}`}
                     onClick={() => setIsOpen(false)}
                   >
                     {item.name}

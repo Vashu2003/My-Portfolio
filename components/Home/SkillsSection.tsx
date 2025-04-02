@@ -82,7 +82,7 @@ export default function SkillsSection() {
               ))}
             </div>
             <p className="mt-4 text-gray-400 text-sm">
-              I'm actively expanding my knowledge through courses and personal projects.
+              I&apos;m actively expanding my knowledge through courses and personal projects.
             </p>
           </motion.div>
         </div>

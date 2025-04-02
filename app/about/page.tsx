@@ -43,7 +43,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-6 text-white">Who I Am</h2>
             <div className="space-y-4 text-gray-300">
               <p>
-                Hi! I'm Vashu, a passionate web developer skilled in React.js and Node.js, 
+                Hi! I&apos;m Vashu, a passionate web developer skilled in React.js and Node.js, 
                 with experience building modern frontend applications. I have a strong foundation 
                 in HTML, CSS, JavaScript, and responsive design.
               </p>
@@ -52,9 +52,9 @@ export default function AboutPage() {
                 Open to collaborations and new opportunities!
               </p>
               <p>
-                When I'm not coding, you'll find me experimenting with new tech, contributing 
+                When I&apos;m not coding, you&apos;ll find me experimenting with new tech, contributing 
                 to open-source projects, or diving into tutorials to expand my skills. 
-                Let's connect and build something amazing together!
+                Let&apos;s connect and build something amazing together!
               </p>
             </div>
           </motion.div>

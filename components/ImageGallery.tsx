@@ -1,19 +1,21 @@
 // components/ImageGallery.tsx
 "use client";
-import { useEffect, useState } from "react";
+import { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import { FiX, FiChevronLeft, FiChevronRight } from "react-icons/fi";
 
-export default function ImageGallery({
-  images,
-  onClose,
-}: {
-  images: { url: string; alt: string }[];
-  onClose: () => void;
-}) {
+export default function ImageGallery({ images, onClose }: { images: { url: string; alt: string }[]; onClose: () => void }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Keyboard navigation
+  // Memoize the navigation functions
+  const nextImage = useCallback(() => {
+    setCurrentIndex((prev) => (prev + 1) % images.length);
+  }, [images.length]);
+
+  const prevImage = useCallback(() => {
+    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
+  }, [images.length]);
+
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose();
@@ -23,18 +25,14 @@ export default function ImageGallery({
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentIndex]);
-
-  const nextImage = () => setCurrentIndex((prev) => (prev + 1) % images.length);
-  const prevImage = () => setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
+  }, [onClose, nextImage, prevImage]);
 
   return (
     <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center">
-      <button onClick={onClose} className="absolute top-4 right-4 text-white">
+      <div className="relative w-full max-w-4xl h-3/4">
+      <button onClick={onClose} className="absolute z-[1] right-4 top-4 text-white">
         <FiX size={24} />
       </button>
-      
-      <div className="relative w-full max-w-4xl h-3/4">
         <Image
           src={images[currentIndex].url}
           alt={images[currentIndex].alt}
