@@ -86,6 +86,20 @@ yarn dev
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## 📦 Additional Dependencies
+
+Here are all the additional dependencies needed for this project. You can copy and paste these commands to install them:
+
+### Regular Dependencies
+```bash
+npm install framer-motion react-icons react-markdown react-type-animation remark remark-gfm remark-html yet-another-react-lightbox
+```
+
+### Dev Dependencies
+```bash
+npm install -D @eslint/eslintrc @tailwindcss/postcss @types/node @types/react @types/react-dom eslint eslint-config-next tailwindcss typescript
+```
+
 ## 📁 Project Structure
 
 ```
