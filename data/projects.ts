@@ -188,4 +188,147 @@ export const projects: Project[] = [
 `
 ,
   },
+  {
+    id: 4,
+    title: "HOM Landing Page",
+    description: "A sleek, responsive landing page for HOM (House of Music), designed to showcase music services with modern UI/UX principles. Built with HTML, CSS, and JavaScript for seamless interactivity.",
+    tags: ["React", "Tailwind CSS", "Axios", "Lodash"],
+    images: [
+      {
+        url: "/project-images/landing-page-1.png",
+        alt: "HOM Landing Page hero section",
+      },
+      {
+        url: "/project-images/landing-page-2.png",
+        alt: "HOM services section",
+      },
+      {
+        url: "/project-images/landing-page-3.png",
+        alt: "HOM testimonials section",
+      },
+      {
+        url: "/project-images/landing-page-4.png",
+        alt: "HOM testimonials section",
+      },
+      {
+        url: "/project-images/landing-page-5.png",
+        alt: "HOM testimonials section",
+      },
+    ],
+    liveUrl: "https://beamish-empanada-93cfd1.netlify.app/",
+    githubUrl: "https://github.com/Vashu2003/HOM-Landing-Page",
+    date: "2024-02-15",
+    content: `# Project Overview: HOM Landing Page  
+  
+  **HOM Landing Page** is a visually appealing, performance-optimized webpage designed to promote House of Music (HOM) services. It features smooth animations, responsive layouts, and clean code architecture.  
+  
+  ## Key Features  
+  - ✔ **Modern UI/UX** – Minimalist design with attention to typography and spacing.  
+  - ✔ **Mobile-First** – Fully responsive across all devices (desktop, tablet, mobile).  
+  - ✔ **Interactive Elements** – Animated CTAs, hover effects, and dynamic scrolling.  
+  - ✔ **Performance Optimized** – Fast load times with optimized assets and lazy loading.  
+  
+  ## Tech Stack  
+  - **Frontend:** HTML5, CSS3, JavaScript (ES6+)  
+  - **Styling:** Flexbox, CSS Grid, and custom animations  
+  - **Deployment:** Hosted on GitHub Pages  
+  
+  ## Challenges & Solutions  
+  🔹 **Cross-Browser Compatibility** – Used progressive enhancement techniques for consistent rendering.  
+  🔹 **Animation Smoothness** – Implemented CSS transitions for fluid motion.  
+  🔹 **SEO Basics** – Structured semantic HTML for better search engine visibility.  
+  `
+  },
+  {
+    id: 5,
+    title: "Memory Card Game",
+    description: "A fun and interactive memory matching game built with vanilla JavaScript, HTML, and CSS. Test your memory by flipping cards to find matching pairs of fruits.",
+    tags: ["JavaScript", "HTML5", "CSS3", "Game Development"],
+    images: [
+      {
+        url: "/project-images/memory-game-1.png",
+        alt: "Memory Card Game hero section",
+      },
+      {
+        url: "/project-images/memory-game-2.png",
+        alt: "Memory Card Game hero section",
+      },
+    ],
+    liveUrl: "https://fliping-card-game.netlify.app/", 
+    githubUrl: "https://github.com/Vashu2003/Web-Projects", 
+    date: "2024-02-17", 
+    content: `# Project Overview: Memory Card Game  
+  
+  **Memory Card Game** is a classic matching game where players flip cards to find matching pairs. The game tracks time, moves, and announces when the player wins.
+  
+  ## Key Features  
+  - ✔ **Interactive Gameplay** - Flip cards to reveal hidden fruit emojis  
+  - ✔ **Score Tracking** - Real-time tracking of moves and time  
+  - ✔ **Win Condition** - Game detects when all pairs are matched  
+  - ✔ **Restart Functionality** - Reset the game with one click  
+  - ✔ **Responsive Design** - Works on various screen sizes  
+  
+  ## Tech Stack  
+  - **Frontend:** Vanilla JavaScript, HTML5, CSS3  
+  - **Game Logic:** Custom shuffle algorithm, event listeners  
+  - **Animations:** CSS transitions for card flipping  
+  
+  ## Challenges & Solutions  
+  🔹 **Card Matching Logic** - Implemented a comparison system for flipped cards  
+  🔹 **Game State Management** - Tracked flipped cards and matches  
+  🔹 **Timer Implementation** - Created a real-time counter  
+  🔹 **Shuffle Algorithm** - Used Fisher-Yates for random card distribution  
+  `
+  },
+  {
+    id: 6,
+    title: "Interactive Quiz App",
+    description: "A dynamic web-based quiz application built with vanilla JavaScript that tests users on general knowledge questions with instant feedback and score calculation.",
+    tags: ["JavaScript", "HTML5", "CSS3", "Interactive Web App"],
+    images: [
+      {
+        url: "/project-images/quiz-1.png",
+        alt: "Quiz App hero section",
+      },
+      {
+        url: "/project-images/quiz-2.png",
+        alt: "Quiz App hero section",
+      },
+      {
+        url: "/project-images/quiz-3.png",
+        alt: "Quiz App hero section",
+      },
+    ],
+    liveUrl: "https://fliping-card-game.netlify.app/", 
+    githubUrl: "https://github.com/Vashu2003/Web-Projects", 
+    date: "2024-02-25", 
+    content: `# Project Overview: Quiz App  
+  
+  **Quiz App** is an interactive web application that presents users with a series of questions and tracks their score. The app features smooth transitions between questions and immediate scoring.
+  
+  ## Key Features  
+  - ✔ **Question Bank** - 10 diverse general knowledge questions
+  - ✔ **Option Selection** - Radio button interface for answer choices
+  - ✔ **Score Tracking** - Real-time score calculation
+  - ✔ **Progress Flow** - Sequential question navigation
+  - ✔ **Completion Screen** - Final score display with performance metrics
+  
+  ## Tech Stack  
+  - **Frontend:** Vanilla JavaScript, HTML5, CSS3
+  - **Data Structure:** Array of question objects
+  - **DOM Manipulation:** Dynamic element creation and updates
+  
+  ## Challenges & Solutions  
+  🔹 **State Management** - Tracked current question index and score
+  🔹 **User Input Validation** - Implemented option selection requirement
+  🔹 **Dynamic UI Updates** - Rebuilt options for each new question
+  🔹 **Score Calculation** - Compared selected option against correct answer
+  
+  ## Potential Enhancements
+  - Timer for each question
+  - Multiple quiz categories
+  - High score tracking
+  - Animations for correct/incorrect answers
+  `
+  },
 ];

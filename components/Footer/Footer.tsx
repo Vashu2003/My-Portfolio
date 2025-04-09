@@ -63,6 +63,7 @@ export default function Footer() {
                 { name: "Home", path: "/" },
                 { name: "Projects", path: "/projects" },
                 { name: "About", path: "/about" },
+                { name: "Certifications", path: "/certifications" },
                 { name: "Contact", path: "/contact" }
               ].map((link, index) => (
                 <motion.li 
