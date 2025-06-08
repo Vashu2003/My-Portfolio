@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 export default function AboutPage() {
   const skills = [
-    { name: "Frontend Development", level: 90, color: "from-blue-500 to-purple-600" },
-    { name: "Backend Development", level: 15, color: "from-amber-500 to-orange-600" },
+    { name: "Frontend Development", level: 80, color: "from-blue-500 to-purple-600" },
+    { name: "Backend Development", level: 85, color: "from-amber-500 to-orange-600" },
     { name: "UI/UX Design", level: 80, color: "from-emerald-500 to-teal-600" },
   ];
 
