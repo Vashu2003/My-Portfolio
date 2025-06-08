@@ -17,6 +17,76 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "HyperHive",
+    description:
+      "HyperHive is a futuristic collaborative project management platform designed for students and project groups. Built with the modern MERN stack, it provides a seamless experience for managing project groups, tasks, notes, and virtual meetings in one place.",
+    tags: ["MERN Stack", "Socket.io", "JWT Authentication", "Docker"],
+    images: [
+      {
+        url: "/project-images/hiperhive-1.png",
+        alt: "HyperHive homepage",
+      },
+      {
+        url: "/project-images/hiperhive-2.png",
+        alt: "HyperHive with detection overlay",
+      },
+      {
+        url: "/project-images/hiperhive-3.png",
+        alt: "HyperHive with detection overlay",
+      },
+      {
+        url: "/project-images/hiperhive-4.png",
+        alt: "HyperHive with detection overlay",
+      },
+      {
+        url: "/project-images/hiperhive-5.png",
+        alt: "HyperHive with detection overlay",
+      },
+      {
+        url: "/project-images/hiperhive-6.png",
+        alt: "HyperHive with detection overlay",
+      },
+      {
+        url: "/project-images/hiperhive-7.png",
+        alt: "HyperHive with detection overlay",
+      },
+    ],
+    liveUrl: "https://hyperhive-frontend.onrender.com",
+    githubUrl: "https://github.com/Vashu2003/HyperHive",
+    date: "2025-03-01",
+    content: `# Project Overview: HyperHive
+
+**HyperHive** is a futuristic collaborative project management platform built for students and project teams. It streamlines task management, note sharing, group collaboration, and virtual meetings—all in one modern web app powered by the MERN stack.
+
+## Key Features  
+- ✔ **Group Collaboration** – Create project groups, manage roles, and post announcements  
+- ✔ **Task Management** – Assign tasks, set priorities, and track progress with real-time updates  
+- ✔ **Rich Notes & Attachments** – Share formatted notes, upload resources, and track version history  
+- ✔ **Virtual Meetings** – Schedule and host audio/video sessions with screen sharing  
+- ✔ **Calendar & Timeline** – View project events and deadlines in a timeline or calendar format  
+- ✔ **Role-Based Access** – Secure authentication with admin and member permissions  
+
+## Tech Stack  
+- **Frontend:** React.js (Vite)  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB (Mongoose)  
+- **Styling:** Tailwind CSS  
+- **Real-time:** Socket.io  
+- **Auth & Security:** JWT Authentication  
+- **File Storage:** Cloudinary  
+- **Deployment:** Frontend & Backend on Render  
+
+## Challenges & Solutions  
+🔹 **Real-Time Sync** – Used Socket.io to sync tasks and messages instantly across clients  
+🔹 **Secure Access Control** – Implemented JWT-based role validation and protected routes  
+🔹 **Scalable File Handling** – Integrated Cloudinary for efficient and scalable media storage  
+🔹 **Containerization** – Used Docker + Docker Compose for simplified development and deployment  
+🔹 **User Experience** – Focused on responsiveness, intuitive UI, and dark/light mode themes  
+
+`,
+  },
+  {
+    id: 2,
     title: "Movie DB",
     description:
       "A modern, responsive React application for discovering and managing your favorite movies. Built with React, Tailwind CSS, and powered by the TMDB API.",
@@ -79,7 +149,7 @@ export const projects: Project[] = [
 `,
   },
   {
-    id: 2,
+    id: 3,
     title: "WSI Viewer",
     description:
       "A modern, interactive Whole Slide Image (WSI) viewer application built with React and OpenSeadragon. This application allows medical professionals to view and analyze whole slide images with detection overlays, making it easier to identify and analyze various cell types in blood smears.",
@@ -122,7 +192,7 @@ export const projects: Project[] = [
 `,
   },
   {
-    id: 3,
+    id: 4,
     title: "Student Portal",
     description:
       "A modern, React-based Student Portal that provides a comprehensive platform for managing academic activities and information. This web application streamlines student access to course materials, assignments, schedules, and academic performance tracking.",
@@ -189,7 +259,7 @@ export const projects: Project[] = [
 ,
   },
   {
-    id: 4,
+    id: 5,
     title: "HOM Landing Page",
     description: "A sleek, responsive landing page for HOM (House of Music), designed to showcase music services with modern UI/UX principles. Built with HTML, CSS, and JavaScript for seamless interactivity.",
     tags: ["React", "Tailwind CSS", "Axios", "Lodash"],
@@ -240,7 +310,7 @@ export const projects: Project[] = [
   `
   },
   {
-    id: 5,
+    id: 6,
     title: "Memory Card Game",
     description: "A fun and interactive memory matching game built with vanilla JavaScript, HTML, and CSS. Test your memory by flipping cards to find matching pairs of fruits.",
     tags: ["JavaScript", "HTML5", "CSS3", "Game Development"],
@@ -281,7 +351,7 @@ export const projects: Project[] = [
   `
   },
   {
-    id: 6,
+    id: 7,
     title: "Interactive Quiz App",
     description: "A dynamic web-based quiz application built with vanilla JavaScript that tests users on general knowledge questions with instant feedback and score calculation.",
     tags: ["JavaScript", "HTML5", "CSS3", "Interactive Web App"],
@@ -299,7 +369,7 @@ export const projects: Project[] = [
         alt: "Quiz App hero section",
       },
     ],
-    liveUrl: "https://fliping-card-game.netlify.app/", 
+    liveUrl: "https://quizwebsiteapplication.netlify.app/", 
     githubUrl: "https://github.com/Vashu2003/Web-Projects", 
     date: "2024-02-25", 
     content: `# Project Overview: Quiz App  
