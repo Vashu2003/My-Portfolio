@@ -6,18 +6,16 @@ export default function SkillsSection() {
     { name: "HTML/CSS", level: 90 },
     { name: "JavaScript", level: 80 },
     { name: "React", level: 75 },
-    { name: "Node.js Fundamentals", level: 70 },
-    { name: "Git Version Control", level: 85 },
-    { name: "Responsive Design", level: 90 }
+    { name: "Node.js", level: 70 },
+    { name: "Git", level: 85 },
+    { name: "MongoDB", level: 90 }
   ];
 
   const learningSkills = [
     "TypeScript",
     "Next.js",
     "Java",
-    "Express",
-    "MongoDB",
-    "Tailwind CSS"
+    "Docker",
   ];
 
   return (

@@ -17,6 +17,94 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "CodeCheck AI",
+    description:
+      "CodeCheck AI is a web application that enables developers to submit Python or JavaScript code and receive AI-generated feedback on bugs, readability, and performance. It uses Gemini API to provide instant analysis and corrected versions, while tracking all submissions in a searchable history log.",
+    tags: [
+      "FastAPI",
+      "Gemini API",
+      "Monaco Editor",
+      "SQLAlchemy",
+    ],
+    images: [
+      {
+        url: "/project-images/codecheck-ai-1.png",
+        alt: "AI Code Reviewer homepage",
+      },
+      {
+        url: "/project-images/codecheck-ai-2.png",
+        alt: "Code submission page",
+      },
+      {
+        url: "/project-images/codecheck-ai-3.png",
+        alt: "Feedback panel with AI suggestions",
+      },
+      {
+        url: "/project-images/codecheck-ai-4.png",
+        alt: "Admin panel to manage sample answers",
+      },
+      {
+        url: "/project-images/codecheck-ai-5.png",
+        alt: "History of submissions interface",
+      },
+      {
+        url: "/project-images/codecheck-ai-6.png",
+        alt: "Mobile view of the interface",
+      }
+    ],
+    liveUrl: "https://devaudit0.netlify.app",
+    githubUrl: "https://github.com/Vashu2003/AI-Code-Reviewer",
+    date: "2025-06-20",
+    content: `# Project Overview: CodeCheck AI
+  
+  **CodeCheck AI** is a smart code analysis platform designed for developers to get real-time feedback on their Python and JavaScript code submissions. Powered by the Gemini API, it provides meaningful suggestions on bugs, readability, efficiency, and even offers improved versions of the submitted code.
+  
+  ## Key Features  
+  - ✅ **Multi-Language Support** – Submit Python or JavaScript code  
+  - 🤖 **AI-Powered Feedback** – Instant review of bugs, code quality, and suggestions  
+  - 📈 **Scoring System** – Efficiency and readability metrics  
+  - 📊 **Comparison with Ideal Solutions** – Detects similarity to curated sample answers  
+  - 📜 **Submission History** – Tracks all past submissions with full details  
+  - 👨‍🏫 **Admin Panel** – Add and manage ideal sample answers  
+  - 🧠 **Monaco Editor Integration** – Developer-friendly interface for writing and editing code  
+  
+  ## Tech Stack  
+  ### Frontend  
+  - **Framework:** React (Vite)  
+  - **Styling:** TailwindCSS  
+  - **Editor:** Monaco Editor  
+  - **Charts:** Chart.js  
+  - **Icons:** Lucide Icons  
+  - **Networking:** Axios  
+  - **Deployment:** Netlify  
+  
+  ### Backend  
+  - **Framework:** FastAPI  
+  - **ORM:** SQLAlchemy (SQLite)  
+  - **AI Integration:** Gemini 2.5 Pro API  
+  - **Server:** Uvicorn  
+  - **Deployment:** Railway  
+  
+  ## Challenges & Solutions  
+  🔹 **Code Editor Integration** – Used Monaco Editor to provide a professional-grade editing experience  
+  🔹 **AI Feedback Parsing** – Designed structured prompts for the Gemini API and handled JSON parsing  
+  🔹 **Similarity Matching** – Built a system to compare code with ideal sample answers using string similarity metrics  
+  🔹 **Secure API Key Management** – Managed secrets via .env files and isolated frontend/backend keys  
+  🔹 **Responsive UI** – Fully responsive across devices including tablet and mobile views    
+  
+  ## Acknowledgments  
+  - FastAPI  
+  - React  
+  - TailwindCSS  
+  - Monaco Editor  
+  - Chart.js  
+  - Lucide Icons  
+  - Netlify  
+  - Railway
+  `,
+  },
+  {
+    id: 2,
     title: "HyperHive",
     description:
       "HyperHive is a futuristic collaborative project management platform designed for students and project groups. Built with the modern MERN stack, it provides a seamless experience for managing project groups, tasks, notes, and virtual meetings in one place.",
@@ -86,7 +174,7 @@ export const projects: Project[] = [
 `,
   },
   {
-    id: 2,
+    id: 3,
     title: "Movie DB",
     description:
       "A modern, responsive React application for discovering and managing your favorite movies. Built with React, Tailwind CSS, and powered by the TMDB API.",
@@ -149,7 +237,7 @@ export const projects: Project[] = [
 `,
   },
   {
-    id: 3,
+    id: 4,
     title: "WSI Viewer",
     description:
       "A modern, interactive Whole Slide Image (WSI) viewer application built with React and OpenSeadragon. This application allows medical professionals to view and analyze whole slide images with detection overlays, making it easier to identify and analyze various cell types in blood smears.",
@@ -192,7 +280,7 @@ export const projects: Project[] = [
 `,
   },
   {
-    id: 4,
+    id: 5,
     title: "Student Portal",
     description:
       "A modern, React-based Student Portal that provides a comprehensive platform for managing academic activities and information. This web application streamlines student access to course materials, assignments, schedules, and academic performance tracking.",
@@ -259,7 +347,7 @@ export const projects: Project[] = [
 ,
   },
   {
-    id: 5,
+    id: 6,
     title: "HOM Landing Page",
     description: "A sleek, responsive landing page for HOM (House of Music), designed to showcase music services with modern UI/UX principles. Built with HTML, CSS, and JavaScript for seamless interactivity.",
     tags: ["React", "Tailwind CSS", "Axios", "Lodash"],
@@ -310,7 +398,7 @@ export const projects: Project[] = [
   `
   },
   {
-    id: 6,
+    id: 7,
     title: "Memory Card Game",
     description: "A fun and interactive memory matching game built with vanilla JavaScript, HTML, and CSS. Test your memory by flipping cards to find matching pairs of fruits.",
     tags: ["JavaScript", "HTML5", "CSS3", "Game Development"],
@@ -351,7 +439,7 @@ export const projects: Project[] = [
   `
   },
   {
-    id: 7,
+    id: 8,
     title: "Interactive Quiz App",
     description: "A dynamic web-based quiz application built with vanilla JavaScript that tests users on general knowledge questions with instant feedback and score calculation.",
     tags: ["JavaScript", "HTML5", "CSS3", "Interactive Web App"],

@@ -15,14 +15,22 @@ export default function Timeline() {
   const items: TimelineItem[] = [
     {
       id: 1,
-      date: "2022 - Present",
+      date: "Feb 2025 - Mar 2025",
+      title: "Web Developer Intern",
+      organization: "Reignite Technologies",
+      description: "Contributed to full-stack development using React.js, Node.js, Express, and MongoDB for real-world web applications.",
+      icon: "work",
+    },
+    {
+      id: 2,
+      date: "2022 - 2025",
       title: "Bachelors in Computer Applications",
       organization: "Sambhram Academy Of Management Studies",
       description: "Current CGPA - 7.4.",
       icon: "education",
     },
     {
-      id: 2,
+      id: 3,
       date: "2019 - 2021",
       title: "Computer Science",
       organization: "Seshadripuram Pre University College",
@@ -30,7 +38,7 @@ export default function Timeline() {
       icon: "education",
     },
     {
-      id: 3,
+      id: 4,
       date: "2018 - 2019",
       title: "Secondary Education",
       organization: "Aditya National Public School",
